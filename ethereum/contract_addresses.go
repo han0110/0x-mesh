@@ -85,15 +85,15 @@ var ChainIDToContractAddresses = map[int]ContractAddresses{
 	},
 	// Rinkeby
 	4: ContractAddresses{
-		ERC20Proxy:          common.HexToAddress("0x3e809c563c15a295e832e37053798ddc8d6c8dab"),
-		ERC721Proxy:         common.HexToAddress("0x8e1ff02637cb5e39f2fa36c14706aa348b065b09"),
-		ERC1155Proxy:        common.HexToAddress("0x19bb6caa3bc34d39e5a23cedfa3e6c7e7f3c931d"),
-		Exchange:            common.HexToAddress("0xbff9493f92a3df4b0429b6d00743b3cfb4c85831"),
+		ERC20Proxy:          common.HexToAddress("0x131816505b32b7bd1cc99e273950e26e5c7197c2"),
+		ERC721Proxy:         common.HexToAddress("0x646254e8398fee80bb0229e59d74c144de1ea9e1"),
+		ERC1155Proxy:        common.HexToAddress("0xdd7adeaa7934eab41e1c71e6c18d6d37612ed828"),
+		Exchange:            common.HexToAddress("0x9f3a0c1a98fc9d9ca5fde7ca12ff4f8b8e755b3d"),
 		Coordinator:         common.HexToAddress("0x2ba02e03ee0029311e0f43715307870a3e701b53"),
 		CoordinatorRegistry: common.HexToAddress("0x1084b6a398e47907bae43fec3ff4b677db6e4fee"),
-		DevUtils:            common.HexToAddress("0x2d4a9abda7b8b3605c8dbd34e3550a7467c78287"),
+		DevUtils:            common.HexToAddress("0x66769ad5e17787d8263960838ffb26784705503a"),
 		WETH9:               common.HexToAddress("0xc778417e063141139fce010982780140aa0cd5ab"),
-		ZRXToken:            common.HexToAddress("0x2727e688b8fd40b198cd5fe6e408e00494a06f07"),
+		ZRXToken:            common.HexToAddress("0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa"),
 	},
 	// Kovan
 	42: ContractAddresses{
