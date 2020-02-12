@@ -61,13 +61,13 @@ type ContractAddresses struct {
 var ChainIDToContractAddresses = map[int]ContractAddresses{
 	// Mainnet
 	1: ContractAddresses{
-		ERC20Proxy:          common.HexToAddress("0x95e6f48254609a6ee006f7d493c8e5fb97094cef"),
-		ERC721Proxy:         common.HexToAddress("0xefc70a1b18c432bdc64b596838b4d138f6bc6cad"),
-		ERC1155Proxy:        common.HexToAddress("0x7eefbd48fd63d441ec7435d024ec7c5131019add"),
-		Exchange:            common.HexToAddress("0x080bf510fcbf18b91105470639e9561022937712"),
+		ERC20Proxy:          common.HexToAddress("0x318a41f496bd285f583513c5cb265ea89963690f"),
+		ERC721Proxy:         common.HexToAddress("0x5ca9ee104a88724fb6c82a819928d24c0b2b6e48"),
+		ERC1155Proxy:        common.HexToAddress("0x5e6280036d832633ba5aa9258cd038eba3820daf"),
+		Exchange:            common.HexToAddress("0xec8a4d8619f10bbb195984e86ec89329b8ba14e7"),
 		Coordinator:         common.HexToAddress("0xa14857e8930acd9a882d33ec20559beb5479c8a6"),
 		CoordinatorRegistry: common.HexToAddress("0x45797531b873fd5e519477a070a955764c1a5b07"),
-		DevUtils:            common.HexToAddress("0x92d9a4d50190ae04e03914db2ee650124af844e6"),
+		DevUtils:            common.HexToAddress("0x8e2cc8bcea76b98fa9a6069f06fc943525f4501c"),
 		WETH9:               common.HexToAddress("0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"),
 		ZRXToken:            common.HexToAddress("0xe41d2489571d322189246dafa5ebde1f4699f498"),
 	},
@@ -85,15 +85,15 @@ var ChainIDToContractAddresses = map[int]ContractAddresses{
 	},
 	// Rinkeby
 	4: ContractAddresses{
-		ERC20Proxy:          common.HexToAddress("0x3e809c563c15a295e832e37053798ddc8d6c8dab"),
-		ERC721Proxy:         common.HexToAddress("0x8e1ff02637cb5e39f2fa36c14706aa348b065b09"),
-		ERC1155Proxy:        common.HexToAddress("0x19bb6caa3bc34d39e5a23cedfa3e6c7e7f3c931d"),
-		Exchange:            common.HexToAddress("0xbff9493f92a3df4b0429b6d00743b3cfb4c85831"),
-		Coordinator:         common.HexToAddress("0x2ba02e03ee0029311e0f43715307870a3e701b53"),
-		CoordinatorRegistry: common.HexToAddress("0x1084b6a398e47907bae43fec3ff4b677db6e4fee"),
-		DevUtils:            common.HexToAddress("0x2d4a9abda7b8b3605c8dbd34e3550a7467c78287"),
+		ERC20Proxy:          common.HexToAddress("0xb7d5395c7ea4414d39268480e8f26f53fcbfafc0"),
+		ERC721Proxy:         common.HexToAddress("0x0a0d8fe3fb7c64d04694e92c981f2c381be65de4"),
+		ERC1155Proxy:        common.HexToAddress("0xd18952c2fadb4620e7d59e926647c8f865e4c40c"),
+		Exchange:            common.HexToAddress("0x7a8d4e8b0d697a3623e7ddd40beea71a698e1eee"),
+		Coordinator:         common.HexToAddress("0xa15d00d9bb3d3c1ec512f22be5a71a02ab1396de"),
+		CoordinatorRegistry: common.HexToAddress("0x2bce1da0bd9e5ea3b9c4613b5bf4046737468b62"),
+		DevUtils:            common.HexToAddress("0x091fa449cb3531dd431aeba511a43950795c2c68"),
 		WETH9:               common.HexToAddress("0xc778417e063141139fce010982780140aa0cd5ab"),
-		ZRXToken:            common.HexToAddress("0x2727e688b8fd40b198cd5fe6e408e00494a06f07"),
+		ZRXToken:            common.HexToAddress("0xc778417e063141139fce010982780140aa0cd5ab"),
 	},
 	// Kovan
 	42: ContractAddresses{
@@ -106,6 +106,18 @@ var ChainIDToContractAddresses = map[int]ContractAddresses{
 		DevUtils:            common.HexToAddress("0x1e3616bc5144362f95d72de41874395567697e93"),
 		WETH9:               common.HexToAddress("0xd0a1e359811322d97991e03f863a0c30c2cf029c"),
 		ZRXToken:            common.HexToAddress("0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa"),
+	},
+	// Binance Smart Chain Testnet
+	97: ContractAddresses{
+		ERC20Proxy:          common.HexToAddress("0xfc62cb079332b0aed9639ea1f3994e90eb0423d2"),
+		ERC721Proxy:         common.HexToAddress("0x631297a4f8d522faa19056cba00d2973f603f894"),
+		ERC1155Proxy:        common.HexToAddress("0x855fd00ab453f69a2cc19ee90c64887802e18ce3"),
+		Exchange:            common.HexToAddress("0x2eff9538b05dd30e16ef64b7e8b2d56b261848fd"),
+		Coordinator:         common.HexToAddress("0x6d96c322808835d0db89f0fb843ada1573ee103a"),
+		CoordinatorRegistry: common.HexToAddress("0x6af28e2024fd9266dc9020ed455943aa54cd0eb0"),
+		DevUtils:            common.HexToAddress("0x1fc630eccc87e6f4c8ecf3dad65ced65e39022c2"),
+		WETH9:               common.HexToAddress("0x4c0151024de044b8977e8af815c6610f079baf31"),
+		ZRXToken:            common.HexToAddress("0x4c0151024de044b8977e8af815c6610f079baf31"),
 	},
 	// Ganache snapshot
 	1337: ContractAddresses{

@@ -11,10 +11,10 @@ RUN apk update && apk add ca-certificates nodejs-current npm make git dep gcc bu
 
 WORKDIR /go/src/github.com/0xProject/0x-mesh
 
-ADD . ./
-
+ADD Gopkg.toml Gopkg.lock Makefile ./
 RUN make deps-go-no-lockfile
 
+ADD . ./
 RUN go build ./cmd/mesh
 
 # Final Image
